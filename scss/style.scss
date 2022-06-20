@@ -8,7 +8,7 @@
 
 .wrapper {
     max-width: 1240px;
-    margin-top: 40px;
+    margin: 40px auto 0px auto;
 }
 
 html,
@@ -18,6 +18,8 @@ body {
 
 body {
     font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 h1,
@@ -32,12 +34,36 @@ p {
 }
 
 .button-general {
-}
-.link-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 130px;
+    height: 46px;
 }
 
-a:link, a:visited, a:hover {
+.button-white {
+    color: #6a4bff;
+    background-color: #ffffff;
+    border: 1px solid #6a4bff;
+}
+
+.link-general {
+    width: 130px;
+    height: 46px;
+    //padding: 12px 45px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    text-align: center;
+    margin: auto;
+}
+
+a:link,
+a:visited,
+a:hover {
     text-decoration: none;
     color: inherit;
 }
-

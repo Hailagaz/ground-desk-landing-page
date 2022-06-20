@@ -6,6 +6,7 @@
 
     max-width: 1240px;
     height: 46px;
+    color: #ffffff;
 
     // .header__logotype
 
@@ -48,12 +49,14 @@
     // .header__link
 
     &__link {
+        margin-left: 40px;
     }
 
     // .header__account
 
     &__account {
         display: flex;
+        gap: 10px;
     }
 
     // .header__button-login
