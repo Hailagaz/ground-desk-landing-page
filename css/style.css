@@ -1,8 +1,59 @@
+.header {
+  background: #00218f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1240px;
+  height: 46px;
+}
+
+.header__logotype {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav li {
+  list-style: none;
+  display: inline;
+}
+
+.header__account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .wrapper {
-  width: 1240px;
+  max-width: 1240px;
   margin-top: 40px;
 }
 
+html,
 body {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: inherit;
 }

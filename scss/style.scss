@@ -1,8 +1,43 @@
+@import "_header";
+@import "_product";
+@import "_solution";
+@import "_customer";
+@import "_pricing";
+@import "_about-us";
+@import "_footer";
+
 .wrapper {
-    width: 1240px;
+    max-width: 1240px;
     margin-top: 40px;
 }
 
+html,
 body {
-    font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
 }
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+p {
+}
+
+.button-general {
+}
+.link-general {
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
