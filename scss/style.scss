@@ -20,6 +20,8 @@ body {
     font-family: "Be Vietnam Pro", sans-serif;
     font-style: normal;
     font-weight: 400;
+
+    background-image: url(/images/background_image_1.png);
 }
 
 h1,
@@ -37,7 +39,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     width: 130px;
     height: 46px;
     border-radius: 8px;
@@ -50,16 +51,16 @@ p {
 }
 
 .link-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 130px;
     height: 46px;
-    //padding: 12px 45px;
     border: 1px solid #ffffff;
     border-radius: 8px;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: -0.408px;
-    text-align: center;
-    margin: auto;
 }
 
 a:link,
@@ -69,9 +70,11 @@ a:hover {
     color: inherit;
 }
 
-.image1 {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
+
+// Background image as solo element
+// .image1 {
+//     position: absolute;
+//     z-index: -1;
+//     top: 0;
+//     left: 0;
+// }
