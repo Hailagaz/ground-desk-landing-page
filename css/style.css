@@ -80,6 +80,16 @@ body {
   border-radius: 8px;
 }
 
+.button-general:hover {
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 0 15px 5px #ffffff;
+          box-shadow: 0 0 15px 5px #ffffff;
+}
+
 .button-white {
   color: #6a4bff;
   background-color: #ffffff;
