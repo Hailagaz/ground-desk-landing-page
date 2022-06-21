@@ -5,6 +5,7 @@
 @import "_pricing";
 @import "_about-us";
 @import "_footer";
+@import "_button";
 
 .wrapper {
     max-width: 1240px;
@@ -35,40 +36,10 @@ h6 {
 p {
 }
 
-.button-general {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 46px;
-    border-radius: 8px;
-}
 
-.button-general:hover {
-    background-color: #36096d;
-    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-    color: #ffffff;
-    transition: 0.5s;
-    box-shadow: 0 0 15px 5px #ffffff;
-}
 
-.button-white {
-    color: #6a4bff;
-    background-color: #ffffff;
-    border: 1px solid #6a4bff;
-}
-
-.link-general {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 46px;
-    border: 1px solid #ffffff;
-    border-radius: 8px;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: -0.408px;
+a:hover {
+    border-bottom: solid 2px #ffffff;
 }
 
 a:link,
