@@ -8,6 +8,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 1240px;
   height: 46px;
   color: #ffffff;
@@ -38,6 +44,11 @@
   display: flex;
 }
 
+.header__nav ul {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .header__nav li {
   list-style: none;
   display: inline;
@@ -50,11 +61,113 @@
   margin-left: 40px;
 }
 
-.header__account {
+.header__nav li:first-child > a {
+  margin-left: 0;
+}
+
+.header__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 134px;
+}
+
+.product__headline {
+  text-align: center;
+  max-width: 100%;
+  width: 916px;
+}
+
+.product__explain {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+  max-width: 100%;
+  width: 579px;
+}
+
+.product__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+.product__buttons div {
+  margin: 0 12.5px 0 12.5px;
+}
+
+.product__button-demo {
+  color: #ffffff;
+}
+
+.product__dashboards {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product__dashboards img {
+  max-width: 100%;
+  width: 1046px;
+  -webkit-box-shadow: 20px 20px 50px -12px rgba(0, 0, 0, 0.2);
+          box-shadow: 20px 20px 50px -12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.product__services {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-top: 70px;
+}
+
+.product__service {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.product__services img {
+  max-width: 100%;
+  width: 240px;
 }
 
 .button-general {
@@ -121,7 +234,26 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
+  background-repeat: no-repeat;
   background-image: url(/images/background_image_1.png);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+h5 {
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.40799999237060547px;
+  text-align: center;
+  margin: 0;
 }
 
 a:hover {

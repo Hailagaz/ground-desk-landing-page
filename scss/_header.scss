@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     max-width: 1240px;
     height: 46px;
     color: #ffffff;
@@ -43,6 +45,11 @@
     &__nav {
     }
 
+    &__nav ul {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     &__nav li {
         list-style: none;
         display: inline;
@@ -57,9 +64,13 @@
         margin-left: 40px;
     }
 
+    &__nav li:first-child > a {
+        margin-left: 0;
+    }
+
     // .header__account
 
-    &__account {
+    &__buttons {
         display: flex;
         gap: 10px;
     }

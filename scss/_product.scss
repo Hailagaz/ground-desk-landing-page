@@ -1,0 +1,134 @@
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 134px;
+
+    // .product__headline
+
+    &__headline {
+        text-align: center;
+        max-width: 100%;
+        width: 916px;
+    }
+
+    // .product__explain
+
+    &__explain {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 32px;
+        max-width: 100%;
+        width: 579px;
+    }
+
+    // .product__buttons
+
+    &__buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+    &__buttons div {
+        margin: 0 12.5px 0 12.5px;
+    }
+
+    // .product__button-free
+
+    &__button-free {
+    }
+
+    // .product__link-free
+
+    &__link-free {
+    }
+
+    // .product__button-demo
+
+    &__button-demo {
+        color: #ffffff;
+    }
+
+    // .product__link-demo
+
+    &__link-demo {
+    }
+
+    // .product__dashboards
+
+    &__dashboards {
+        margin-top: 70px;
+        display: flex;
+
+    }
+
+    &__dashboards img {
+        max-width: 100%;
+        width: 1046px;
+        box-shadow: 20px 20px 50px -12px rgba(0, 0, 0, 0.2);
+        border-radius: 20px 0px 0px 20px;
+    }
+    // .product__dashboard-white
+
+    &__dashboard-white {
+    }
+
+    // .product__dashboard-black
+
+    &__dashboard-black {
+    }
+
+    // .product__services
+
+    &__services {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 70px;
+    }
+
+    &__service {
+        flex: 0 1 auto;
+    }
+
+    &__services img {
+        max-width: 100%;
+        width: 240px;
+    }
+
+    // .product__servicenow
+
+    &__servicenow {
+    }
+
+    // .product__service
+
+    &__service {
+    }
+
+    // .product__paychex
+
+    &__paychex {
+    }
+
+    // .product__github
+
+    &__github {
+    }
+
+    // .product__stripe
+
+    &__stripe {
+    }
+
+    // .product__zendesk
+
+    &__zendesk {
+    }
+}
