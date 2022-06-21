@@ -1,5 +1,4 @@
 .header {
-  background: #00218f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,6 +74,7 @@ body {
           box-sizing: border-box;
   width: 130px;
   height: 46px;
+  border-radius: 8px;
 }
 
 .button-white {
@@ -100,4 +100,11 @@ a:visited,
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+
+.image1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
