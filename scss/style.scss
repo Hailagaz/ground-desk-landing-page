@@ -6,6 +6,7 @@
 @import "_about";
 @import "_footer";
 @import "_button";
+@import "_switch";
 
 .wrapper {
     max-width: 1240px;
@@ -72,6 +73,13 @@ h3 {
     font-size: 22px;
     font-weight: 600;
     line-height: 30px;
+
+
+    // font-size: 24px;
+    // font-weight: 700;
+    // line-height: 32px;
+    // letter-spacing: 0em;
+    // text-align: center;
 }
 
 h4 {
