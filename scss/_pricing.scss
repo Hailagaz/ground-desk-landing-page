@@ -1,89 +1,92 @@
 .pricing {
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-		// .pricing__headline
+    // .pricing__headline
 
-		&__headline {
-		}
+    &__headline {
+    }
 
-		// .pricing__explain
+    // .pricing__explain
 
-		&__explain {
-		}
+    &__explain {
+        margin-top: 39px;
+    }
 
-		// .pricing__switch
+    // .pricing__switch
 
-		&__switch {
-		}
+    &__switch {
+        margin-top: 43px;
+    }
 
-		// .pricing__switch-monthly
+    // .pricing__switch-monthly
 
-		&__switch-monthly {
-		}
+    &__switch-monthly {
+    }
 
-		// .pricing__switch-slider
+    // .pricing__switch-slider
 
-		&__switch-slider {
-		}
+    &__switch-slider {
+    }
 
-		// .pricing__switch-annualy
+    // .pricing__switch-annualy
 
-		&__switch-annualy {
-		}
+    &__switch-annualy {
+    }
 
-		// .pricing__plans
+    // .pricing__plans
 
-		&__plans {
-		}
+    &__plans {
+        margin-top: 36px;
+        display: flex;
+    }
 
-		// .pricing__plan
+    // .pricing__plan
 
-		&__plan {
-		}
+    &__plan {
+    }
 
-		// .pricing__plan-headline
+    // .pricing__plan-headline
 
-		&__plan-headline {
-		}
+    &__plan-headline {
+    }
 
-		// .pricing__plan-explain
+    // .pricing__plan-explain
 
-		&__plan-explain {
-		}
+    &__plan-explain {
+    }
 
-		// .pricing__plan-amount
+    // .pricing__plan-amount
 
-		&__plan-amount {
-		}
+    &__plan-amount {
+    }
 
-		// .pricing__plan-cash
+    // .pricing__plan-cash
 
-		&__plan-cash {
-		}
+    &__plan-cash {
+    }
 
-		// .pricing__plan-period
+    // .pricing__plan-period
 
-		&__plan-period {
-		}
+    &__plan-period {
+    }
 
-		// .pricing__plan-button
+    // .pricing__plan-button
 
-		&__plan-button {
-		}
+    &__plan-button {
+    }
 
-		// .pricing__plan-link
+    // .pricing__plan-link
 
-		&__plan-link {
-		}
+    &__plan-link {
+    }
 
-		// .pricing__plan-offer
+    // .pricing__plan-offer
 
-		&__plan-offer {
-		}
+    &__plan-offer {
+    }
 }
 
-.switch {
-}
-.slider {
-}
-.round {
-}
