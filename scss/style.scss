@@ -30,10 +30,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
+    margin: 0;
+    font-size: inherit;
 }
 
 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
 }
 
 h1 {
@@ -43,13 +49,32 @@ h1 {
     line-height: 81px;
     letter-spacing: 0.005em;
     text-transform: capitalize;
-    margin: 0;
 }
 
 h2 {
+    letter-spacing: 0.005em;
+    text-align: center;
+    font-weight: 700;
+
+    //section about-us
+    // font-size: 52px;
+    // line-height: 78px;
+    // text-align: left;
+
+    //section pricing
+    // font-size: 52px;
+    // line-height: 66px;
+
+    //section customer
+    // font-size: 40px;
+    // line-height: 81px;
+    // text-align: left;
 }
 
 h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 h4 {
