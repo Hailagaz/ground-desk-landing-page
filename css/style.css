@@ -275,6 +275,17 @@
 
 .pricing__switch {
   margin-top: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing__switch-slider {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .pricing__plans {

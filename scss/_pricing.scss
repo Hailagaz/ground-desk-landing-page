@@ -20,6 +20,8 @@
 
     &__switch {
         margin-top: 43px;
+        display: flex;
+        align-items: center;
     }
 
     // .pricing__switch-monthly
@@ -30,6 +32,8 @@
     // .pricing__switch-slider
 
     &__switch-slider {
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     // .pricing__switch-annualy
