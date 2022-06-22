@@ -254,7 +254,97 @@
 
 .about {
   margin-top: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background: #f2f2ff;
+  background-image: url(/images/about_ellipse.png);
+  background-repeat: no-repeat;
+  background-position: 150% 100%;
+}
+
+.about__team {
+  max-width: 100%;
+  width: 534px;
+  margin-top: 163px;
+}
+
+.about__headline {
+  font-size: 52px;
+  line-height: 78px;
+  text-align: left;
+  color: #0c0047;
+}
+
+.about__explain {
+  margin-top: 30px;
+  max-width: 100%;
+  width: 379px;
+}
+
+.about__people {
+  margin-top: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__people-clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__client {
+  margin-left: -7px;
+}
+
+.about__client img {
+  max-width: 100%;
+  width: 24px;
+}
+
+.about__client:first-of-type {
+  margin-left: 0;
+}
+
+.about__people-amount {
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  margin-left: 12px;
+}
+
+.about__people-amount p {
+  color: #343434;
+}
+
+.about__button {
+  margin-top: 33px;
+  background-color: #6A4BFF;
+  color: #ffffff;
+}
+
+.about__dashboard {
+  margin-top: 119px;
+  margin-bottom: 119px;
+}
+
+.about__dashboard img {
+  max-width: 100%;
+  width: 630px;
 }
 
 .button-general {
@@ -323,6 +413,7 @@ body {
   font-weight: 400;
   background-repeat: no-repeat;
   background-image: url(/images/background_image_1.png);
+  background-position: 0% -270%;
 }
 
 h1,
@@ -338,8 +429,8 @@ p {
 
 p {
   font-size: 14px;
-  font-weight: 400;
   color: #969696;
+  letter-spacing: -0.408px;
 }
 
 h1 {
@@ -353,7 +444,6 @@ h1 {
 
 h2 {
   letter-spacing: 0.005em;
-  text-align: center;
   font-weight: 700;
 }
 

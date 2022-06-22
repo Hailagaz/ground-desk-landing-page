@@ -23,6 +23,7 @@ body {
     font-weight: 400;
     background-repeat: no-repeat;
     background-image: url(/images/background_image_1.png);
+    background-position: 0% -270%;
 }
 
 h1,
@@ -38,8 +39,9 @@ p {
 
 p {
     font-size: 14px;
-    font-weight: 400;
+    //font-weight: 400;
     color: #969696;
+    letter-spacing: -0.408px;
 }
 
 h1 {
@@ -53,13 +55,8 @@ h1 {
 
 h2 {
     letter-spacing: 0.005em;
-    text-align: center;
+    //text-align: center;
     font-weight: 700;
-
-    //section about
-    // font-size: 52px;
-    // line-height: 78px;
-    // text-align: left;
 
     //section pricing
     // font-size: 52px;
