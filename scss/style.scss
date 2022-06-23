@@ -1,3 +1,6 @@
+@import "_button";
+@import "_switch";
+
 @import "_header";
 @import "_product";
 @import "_solution";
@@ -5,8 +8,7 @@
 @import "_pricing";
 @import "_about";
 @import "_footer";
-@import "_button";
-@import "_switch";
+
 
 .wrapper {
     max-width: 1240px;
@@ -57,7 +59,6 @@ h1 {
 
 h2 {
     letter-spacing: 0.005em;
-    //text-align: center;
     font-weight: 700;
 
     //section pricing
@@ -67,7 +68,6 @@ h2 {
     //section customer
     // font-size: 40px;
     // line-height: 81px;
-    // text-align: left;
 }
 
 h3 {
@@ -75,12 +75,10 @@ h3 {
     font-weight: 600;
     line-height: 30px;
 
-
     // font-size: 24px;
     // font-weight: 700;
     // line-height: 32px;
     // letter-spacing: 0em;
-    // text-align: center;
 }
 
 h4 {
@@ -90,11 +88,14 @@ h5 {
     font-size: 17px;
     line-height: 32px;
     letter-spacing: -0.40799999237060547px;
-    text-align: center;
     margin: 0;
 }
 
 h6 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #969696;
 }
 
 a:hover {

@@ -44,28 +44,54 @@
     // .pricing__plans
 
     &__plans {
-        margin-top: 36px;
-        display: flex;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 48px;
     }
 
     // .pricing__plan
 
     &__plan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        width: 384px;
+        border: 1px solid #ffffff;
+        border-radius: 14px;
+        padding: 32px;
+        box-sizing: border-box;
+        box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.05);
+        padding: 50px 24px;
     }
 
     // .pricing__plan-headline
 
     &__plan-headline {
+        color: #0c0047;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     // .pricing__plan-explain
 
     &__plan-explain {
+        margin-top: 24px;
+        max-width: 100%;
+        width: 296px;
+        text-align: center;
     }
 
     // .pricing__plan-amount
 
     &__plan-amount {
+        display: flex;
+        margin-top: 37px;
+        align-items: flex-end;
     }
 
     // .pricing__plan-cash
@@ -73,24 +99,57 @@
     &__plan-cash {
     }
 
+    &__plan-cash p {
+        color: #0c0047;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0em;
+    }
+
     // .pricing__plan-period
 
     &__plan-period {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.011em;
     }
 
     // .pricing__plan-button
 
     &__plan-button {
+        background-color: #00218f;
+        color: #ffffff;
+        border-radius: 8px;
+        margin-top: 42px;
+        width: 100%;
     }
 
     // .pricing__plan-link
 
     &__plan-link {
+        width: 100%;
+    }
+
+    &__plan-link h6 {
+        font-weight: 700;
+        letter-spacing: 0.011em;
+        color: #ffffff;
     }
 
     // .pricing__plan-offer
 
     &__plan-offer {
+        margin-top: 48px;
+        display: flex;
+    }
+
+    &__plan-offer ul {
+        width: 100%;
+    }
+
+    &__plan-offer ul li {
+        
     }
 }
-

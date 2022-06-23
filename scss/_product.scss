@@ -63,7 +63,6 @@
     &__dashboards {
         margin-top: 70px;
         display: flex;
-
     }
 
     &__dashboards img {
@@ -95,6 +94,11 @@
 
     &__service {
         flex: 0 1 auto;
+    }
+
+    &__service:hover {
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        border-radius: 20px;
     }
 
     &__services img {
