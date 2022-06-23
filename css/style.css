@@ -499,14 +499,26 @@ input:checked + .slider:before {
 }
 
 .pricing__plan-offer {
-  margin-top: 48px;
+  margin-top: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 .pricing__plan-offer ul {
   width: 100%;
+  margin: 0;
+  list-style-image: url(../images/offer_included.png);
+}
+
+.pricing__plan-offer ul li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.006em;
+  color: #0c0047;
+  margin-top: 24px;
 }
 
 .about {

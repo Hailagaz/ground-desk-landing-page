@@ -141,15 +141,23 @@
     // .pricing__plan-offer
 
     &__plan-offer {
-        margin-top: 48px;
+        margin-top: 24px;
         display: flex;
+        width: 100%;
     }
 
     &__plan-offer ul {
         width: 100%;
+        margin: 0;
+        list-style-image: url(../images/offer_included.png);
     }
 
     &__plan-offer ul li {
-        
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.006em;
+        color: #0c0047;
+        margin-top: 24px;
     }
 }
