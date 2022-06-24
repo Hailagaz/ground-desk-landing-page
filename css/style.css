@@ -367,6 +367,7 @@ input:checked + .slider:before {
 
 .pricing {
   margin-top: 125px;
+  margin-bottom: 46px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -630,7 +631,7 @@ body {
 html {
   background-image: url(../images/background_image_1.png);
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: 1400px;
 }
 
 body {
