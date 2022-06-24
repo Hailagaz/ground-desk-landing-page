@@ -9,6 +9,8 @@
     // .pricing__headline
 
     &__headline {
+        font-size: 52px;
+        line-height: 66px;
     }
 
     // .pricing__explain
@@ -153,6 +155,8 @@
         list-style-image: url(../images/offer_included.png);
     }
 
+    
+
     &__plan-offer ul li {
         font-size: 14px;
         font-weight: 500;
@@ -160,5 +164,9 @@
         letter-spacing: 0.006em;
         color: #0c0047;
         margin-top: 24px;
+    }
+
+    #plan_standart li:nth-child(n+6) {
+        list-style-image: url(../images/offer_excluded.png);
     }
 }

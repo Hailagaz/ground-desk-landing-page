@@ -23,8 +23,6 @@ body {
 html {
     background-image: url(../images/background_image_1.png);
     background-repeat: no-repeat;
-    //background-position: center center;
-    //background-attachment: fixed;
     -webkit-background-size: 1400px;
     -moz-background-size: 1400px;
     -o-background-size: 1400px;
@@ -50,7 +48,6 @@ p {
 
 p {
     font-size: 14px;
-    //font-weight: 400;
     color: #969696;
     letter-spacing: -0.408px;
 }
@@ -67,28 +64,19 @@ h1 {
 h2 {
     letter-spacing: 0.005em;
     font-weight: 700;
-
-    //section pricing
-    // font-size: 52px;
-    // line-height: 66px;
-
-    //section customer
-    // font-size: 40px;
-    // line-height: 81px;
 }
 
 h3 {
     font-size: 22px;
     font-weight: 600;
     line-height: 30px;
-
-    // font-size: 24px;
-    // font-weight: 700;
-    // line-height: 32px;
-    // letter-spacing: 0em;
 }
 
 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.0025em;
 }
 
 h5 {

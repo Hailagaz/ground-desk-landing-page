@@ -365,6 +365,92 @@ input:checked + .slider:before {
   color: #6a4bff;
 }
 
+.customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.customer__headline {
+  margin-top: 100px;
+  font-size: 40px;
+  line-height: 81px;
+}
+
+.customer__testimonials {
+  margin-top: 60px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+
+.customer__testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  width: 384px;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  padding: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.customer__testimonial-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customer__testimonial-photo {
+  margin-right: 20px;
+}
+
+.customer__testimonial-position {
+  margin-top: 6px;
+}
+
+.customer__testimonial-text {
+  margin-top: 24px;
+  line-height: 22px;
+  letter-spacing: -0.0025em;
+}
+
+.customer__testimonial-stars {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .pricing {
   margin-top: 125px;
   margin-bottom: 46px;
@@ -381,6 +467,11 @@ input:checked + .slider:before {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.pricing__headline {
+  font-size: 52px;
+  line-height: 66px;
 }
 
 .pricing__explain {
@@ -520,6 +611,10 @@ input:checked + .slider:before {
   letter-spacing: 0.006em;
   color: #0c0047;
   margin-top: 24px;
+}
+
+.pricing #plan_standart li:nth-child(n+6) {
+  list-style-image: url(../images/offer_excluded.png);
 }
 
 .about {
@@ -675,6 +770,13 @@ h3 {
   font-size: 22px;
   font-weight: 600;
   line-height: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.0025em;
 }
 
 h5 {
