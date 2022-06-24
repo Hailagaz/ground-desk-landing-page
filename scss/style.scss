@@ -1,5 +1,6 @@
 @import "_button";
 @import "_switch";
+@import "_logotype";
 
 @import "_header";
 @import "_product";
@@ -10,7 +11,7 @@
 @import "_footer";
 
 .wrapper {
-    max-width: 1240px;
+    max-width: 1200px;
     margin: 40px auto 0px auto;
     padding: 0 20px 0 20px;
 }
