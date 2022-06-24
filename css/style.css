@@ -627,13 +627,16 @@ body {
   scroll-behavior: smooth;
 }
 
+html {
+  background-image: url(../images/background_image_1.png);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-repeat: no-repeat;
-  background-image: url(../images/background_image_1.png);
-  background-position: 90% -90%;
 }
 
 h1,
