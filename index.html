@@ -22,7 +22,6 @@
         <div class="image1">
             <img src="/images/background_image_1.png" alt="">
         </div>-->
-        <div class="test"></div>
         <header class="header" id="header">
             <div class="header__logotype logotype">
                 <div class="header__logo logo">
@@ -41,30 +40,38 @@
                 </div>
                 <div class="header__name name">GroundDesk</div>
             </div>
-            <div class="header__menu" id="menu">
-                <div id="menu-bar" onclick="menuOnClick()">
-                    <div id="bar1" class="header__bar"></div>
-                    <div id="bar2" class="header__bar"></div>
-                    <div id="bar3" class="header__bar"></div>
+            <div class="header__menu menu" id="menu">
+                <div id="menu-icon">
+                    <span></span>
                 </div>
                 <nav class="header__nav" id="menu-nav" onclick="hrefOnClick()">
-                    <ul>
+                    <ul class="header__list">
                         <li><a href="#product" class="header__link">Product</a></li>
                         <li><a href="#solution" class="header__link">Solution</a></li>
                         <li><a href="#customer" class="header__link">Customer</a></li>
                         <li><a href="#pricing" class="header__link">Pricing</a></li>
                         <li><a href="#about-us" class="header__link">About us</a></li>
+                        <li class="header__link">
+                            <div class="header__button-login button-general">
+                                <a href="#" class="header__link-login link-general">Login</a>
+                            </div>
+                        </li>
+                        <li class="header__link">
+                            <div class="header__button-sign button-general button-white">
+                                <a href="#" class="header__link-sign link-general ">Sign up</a>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </div>
-            <div class="header__buttons">
+            <!-- <div class="header__buttons">
                 <div class="header__button-login button-general">
                     <a href="#" class="header__link-login link-general">Login</a>
                 </div>
                 <div class="header__button-sign button-general button-white">
                     <a href="#" class="header__link-sign link-general ">Sign up</a>
                 </div>
-            </div>
+            </div> -->
         </header>
         <main class="main" id="main">
             <div class="product">
