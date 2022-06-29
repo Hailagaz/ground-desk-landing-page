@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-	if(window.location.hash) {
-        document.querySelector(window.location.hash).scrollIntoView();
-    }
+	// if(window.location.hash) {
+    //     document.querySelector(window.location.hash).scrollIntoView();
+    // }
 
+	
+	// ----------------------------------------
+	// Section: Smooth scroll to chosen section
 	const menuLinks = document.querySelectorAll('.header__link[data-goto]');
 	if (menuLinks.length > 0) {
 		menuLinks.forEach(menuLink => {
@@ -21,8 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
 					top: gotoBlockValue,
 					behavior: "smooth"
 				});
+				e.preventDefault();
 			}
 		}
 	}
+	// ----------------------------------------
 
 })

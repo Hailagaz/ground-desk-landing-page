@@ -113,8 +113,42 @@ input:checked + .slider:before {
   height: 46px;
   color: #ffffff;
 }
+@media screen and (max-width: 899px) {
+  .header__icon {
+    z-index: 5;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+  }
+  .header__icon span, .header__icon::before, .header__icon::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+  }
+  .header__icon::before, .header__icon::after {
+    content: "";
+  }
+  .header__icon::before {
+    top: 0;
+  }
+  .header__icon::after {
+    bottom: 0;
+  }
+  .header__icon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+}
 .header__menu {
   display: flex;
+}
+.header__icon {
+  display: none;
 }
 .header__list {
   list-style-type: none;
