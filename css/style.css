@@ -130,9 +130,6 @@ input:checked + .slider:before {
   letter-spacing: -0.32px;
   margin-left: 10px;
 }
-.header__link:first-child > a {
-  margin-left: 0;
-}
 .header__buttons {
   display: flex;
   gap: 10px;

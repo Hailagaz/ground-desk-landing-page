@@ -8,40 +8,19 @@
     height: 46px;
     color: #ffffff;
 
-    // .header__logotype
+    &__logotype {}
 
-    &__logotype {
-    }
+    &__logo {}
 
-    // .header__logo
-
-    &__logo {
-    }
-
-    // .header__name
-
-    &__name {
-    }
-
-    // .header__menu
+    &__name {}
 
     &__menu {
         display: flex;
-        //max-width: 100%;
-        //width: 800px;
     }
 
-    // .header__icon
+    &__icon {}
 
-    &__icon {
-    }
-
-    // .header__nav
-
-    &__nav {
-    }
-
-    // .header__list
+    &__nav {}
 
     &__list  {
         list-style-type: none;
@@ -52,8 +31,6 @@
         align-items: center;
     }
 
-    // .header__link
-
     &__link {
         font-size: 16px;
         line-height: 21px;
@@ -61,36 +38,18 @@
         margin-left: 10px;
     }
 
-    &__link:first-child > a {
-        margin-left: 0;
-    }
-
-    // .header__account
-
     &__buttons {
         display: flex;
         gap: 10px;
     }
 
-    // .header__button-login
+    &__button-login {}
 
-    &__button-login {
-    }
+    &__link-login {}
 
-    // .header__link-login
+    &__button-sign {}
 
-    &__link-login {
-    }
-
-    // .header__button-sign
-
-    &__button-sign {
-    }
-
-    // .header__link-sign
-
-    &__link-sign {
-    }
+    &__link-sign {}
 
     @media screen and (max-width: 1199px) {
 
