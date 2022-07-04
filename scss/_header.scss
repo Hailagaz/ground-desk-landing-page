@@ -9,23 +9,9 @@
     color: #ffffff;
     margin: 40px auto 0;
 
-    &__logotype {
-        //padding-left: 20px;
-    }
-
-    &__logo {
-    }
-
-    &__name {
-    }
-
-    // &__menu {
-    //     display: flex;
-    // }
-
-    // &__icon {
-    //     display: none;
-    // }
+    &__logotype {}
+    &__logo {}
+    &__name {}
 
     &__menu-container {
         display: none;
@@ -59,8 +45,7 @@
         margin-top: 8px;
     }
 
-    &__nav {
-    }
+    &__nav {}
 
     &__list {
         list-style-type: none;
@@ -80,7 +65,6 @@
         font-size: 16px;
         line-height: 21px;
         letter-spacing: -0.32px;
-        
     }
 
     &__buttons {
@@ -88,17 +72,10 @@
         gap: 10px;
     }
 
-    &__button-login {
-    }
-
-    &__link-login {
-    }
-
-    &__button-sign {
-    }
-
-    &__link-sign {
-    }
+    &__button-login {}
+    &__link-login {}
+    &__button-sign {}
+    &__link-sign {}
 
     @media screen and (max-width: 899px) {
         padding-left: 20px;

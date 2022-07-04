@@ -623,15 +623,25 @@ input:checked + .slider:before {
 .footer__group {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   flex-grow: 3;
 }
 .footer__company {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer__support {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer__works {
+  margin-left: 5px;
+  margin-right: 8px;
 }
 .footer__list {
   list-style-type: none;
+  align-content: center;
   padding: 0;
   margin: 0;
 }
@@ -649,18 +659,11 @@ input:checked + .slider:before {
   opacity: 0.8;
   margin-top: 32px;
 }
-.footer__support {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.footer__works {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 .footer__web {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  align-items: center;
 }
 .footer__rights {
   display: flex;
@@ -680,11 +683,9 @@ input:checked + .slider:before {
     align-items: center;
   }
   .footer__additional {
-    align-items: center;
     max-width: 100%;
   }
   .footer__grounddesk {
-    justify-content: center;
     align-items: center;
   }
 }
