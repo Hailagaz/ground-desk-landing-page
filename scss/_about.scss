@@ -4,10 +4,10 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background: #f2f2ff;
-    background-image: url(../images/about_ellipse.png);
-    background-repeat: no-repeat;
-    background-position: 320% 40%;
+    background-color: #f2f2ff;
+
+    background: url(../images/about_ellipse.png) 120% center/50% 1000px no-repeat;
+
 
     // .about__team
 
@@ -101,6 +101,11 @@
         max-width: 100%;
         width: 630px;
     }
+
+    @media screen and (max-width: 1199px) {
+        background-image: none;
+    }
+
 
     @media screen and (max-width: 420px) {
         &__headline {
