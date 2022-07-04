@@ -10,9 +10,15 @@
 @import "_about";
 @import "_footer";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .wrapper {
     max-width: 1200px;
-    margin: 40px auto 0px auto;
+    margin: 0px auto 0px auto;
     padding: 0 20px 0 20px;
 }
 
@@ -21,19 +27,20 @@ body {
     scroll-behavior: smooth;
 }
 
-html {
-    background-image: url(../images/background_image_1.png);
-    background-repeat: no-repeat;
-    -webkit-background-size: 1400px;
-    -moz-background-size: 1400px;
-    -o-background-size: 1400px;
-    background-size: 1400px;
-}
+html {}
 
 body {
     font-family: "Be Vietnam Pro", sans-serif;
     font-style: normal;
     font-weight: 400;
+    margin: auto;
+
+    background: url(../images/background_image_2.png) 0 0/contain no-repeat;
+    //-webkit-background-size: 1400px;
+    //-moz-background-size: 1400px;
+    //-o-background-size: 1400px;
+    //background-size: 1400px;
+    //background-size: cover;
 }
 
 h1,

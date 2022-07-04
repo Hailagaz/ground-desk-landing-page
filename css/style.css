@@ -109,9 +109,10 @@ input:checked + .slider:before {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1240px;
+  max-width: 1200px;
   height: 46px;
   color: #ffffff;
+  margin: 40px auto 0;
 }
 .header__menu-container {
   display: none;
@@ -509,7 +510,7 @@ input:checked + .slider:before {
   flex-direction: row;
   flex-wrap: wrap;
   background: #f2f2ff;
-  background-image: url(/images/about_ellipse.png);
+  background-image: url(../images/about_ellipse.png);
   background-repeat: no-repeat;
   background-position: 320% 40%;
 }
@@ -649,9 +650,15 @@ input:checked + .slider:before {
   margin-bottom: 15px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .wrapper {
   max-width: 1200px;
-  margin: 40px auto 0px auto;
+  margin: 0px auto 0px auto;
   padding: 0 20px 0 20px;
 }
 
@@ -660,16 +667,12 @@ body {
   scroll-behavior: smooth;
 }
 
-html {
-  background-image: url(../images/background_image_1.png);
-  background-repeat: no-repeat;
-  background-size: 1400px;
-}
-
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
+  margin: auto;
+  background: url(../images/background_image_2.png) 0 0/contain no-repeat;
 }
 
 h1,
