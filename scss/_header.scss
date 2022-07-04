@@ -9,10 +9,8 @@
     color: #ffffff;
     margin: 40px auto 0;
 
-
-    
-
     &__logotype {
+        //padding-left: 20px;
     }
 
     &__logo {
@@ -103,6 +101,9 @@
     }
 
     @media screen and (max-width: 899px) {
+        padding-left: 20px;
+        padding-right: 20px;
+
         &__menu-container {
             display: flex;
         }

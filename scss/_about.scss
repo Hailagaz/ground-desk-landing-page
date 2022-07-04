@@ -101,4 +101,10 @@
         max-width: 100%;
         width: 630px;
     }
+
+    @media screen and (max-width: 420px) {
+        &__headline {
+            font-size: 48px;
+        }
+    }
 }

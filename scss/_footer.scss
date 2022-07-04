@@ -27,12 +27,17 @@
 
     &__grounddesk {
         margin-top: 22px;
-        flex-grow: 4;
+        flex-grow: 3;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     // .footer__logotype
 
     &__logotype {
+        max-width: 100%;
+        width: 200px;
     }
 
     // .footer__logo
@@ -56,10 +61,19 @@
         margin-top: 37px;
     }
 
+    // .footer_group
+
+    &__group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 3;
+    }
+
     // .footer__company
 
     &__company {
-        flex-grow: 1;
+        //flex-grow: 1;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -91,7 +105,7 @@
     // .footer__support
 
     &__support {
-        flex-grow: 1;
+        //flex-grow: 1;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -99,7 +113,7 @@
     // .footer__works
 
     &__works {
-        flex-grow: 1;
+        //flex-grow: 1;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -122,5 +136,24 @@
         line-height: 28px;
         letter-spacing: 0em;
         margin-bottom: 15px;
+    }
+
+    @media screen and (max-width: 899px) {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__additional {
+            align-items: center;
+            max-width: 100%;
+        }
+
+        &__grounddesk {
+            justify-content: center;
+            align-items: center;
+        }
+
     }
 }
