@@ -510,7 +510,7 @@ input:checked + .slider:before {
   flex-direction: row;
   flex-wrap: wrap;
   background: #f2f2ff;
-  background-image: url(../images/about_ellipse.png);
+  background-image: url(./images/about_ellipse.png);
   background-repeat: no-repeat;
   background-position: 320% 40%;
 }
@@ -672,7 +672,7 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: auto;
-  background: url(../images/background_image_2.png) 0 0/contain no-repeat;
+  background: url(./images/background_image_2.png) 0 0/contain no-repeat;
 }
 
 h1,
