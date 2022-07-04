@@ -152,7 +152,7 @@
     &__plan-offer ul {
         width: 100%;
         margin: 0;
-        list-style-image: url(../images/offer_included.png);
+        list-style: none;
     }
 
     
@@ -164,9 +164,12 @@
         letter-spacing: 0.006em;
         color: #0c0047;
         margin-top: 24px;
+        background-image: url(../images/offer_included.png);
+        background-repeat: no-repeat;
+        padding-left: 31px;
     }
 
     #plan_standart li:nth-child(n+6) {
-        list-style-image: url(../images/offer_excluded.png);
+        background-image: url(../images/offer_excluded.png);
     }
 }

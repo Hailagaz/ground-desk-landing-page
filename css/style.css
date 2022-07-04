@@ -489,7 +489,7 @@ input:checked + .slider:before {
 .pricing__plan-offer ul {
   width: 100%;
   margin: 0;
-  list-style-image: url(../images/offer_included.png);
+  list-style: none;
 }
 .pricing__plan-offer ul li {
   font-size: 14px;
@@ -498,9 +498,12 @@ input:checked + .slider:before {
   letter-spacing: 0.006em;
   color: #0c0047;
   margin-top: 24px;
+  background-image: url(../images/offer_included.png);
+  background-repeat: no-repeat;
+  padding-left: 31px;
 }
 .pricing #plan_standart li:nth-child(n+6) {
-  list-style-image: url(../images/offer_excluded.png);
+  background-image: url(../images/offer_excluded.png);
 }
 
 .about {
@@ -510,7 +513,7 @@ input:checked + .slider:before {
   flex-direction: row;
   flex-wrap: wrap;
   background: #f2f2ff;
-  background-image: url(./images/about_ellipse.png);
+  background-image: url(../images/about_ellipse.png);
   background-repeat: no-repeat;
   background-position: 320% 40%;
 }
@@ -672,7 +675,7 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: auto;
-  background: url(./images/background_image_2.png) 0 0/contain no-repeat;
+  background: url(../images/background_image_2.png) 0 0/contain no-repeat;
 }
 
 h1,
