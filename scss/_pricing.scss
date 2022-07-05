@@ -6,20 +6,14 @@
     align-items: center;
     flex-direction: column;
 
-    // .pricing__headline
-
     &__headline {
         font-size: 52px;
         line-height: 66px;
     }
 
-    // .pricing__explain
-
     &__explain {
         margin-top: 39px;
     }
-
-    // .pricing__switch
 
     &__switch {
         margin-top: 43px;
@@ -27,24 +21,14 @@
         align-items: center;
     }
 
-    // .pricing__switch-monthly
-
-    &__switch-monthly {
-    }
-
-    // .pricing__switch-slider
+    &__switch-monthly {}
 
     &__switch-slider {
         margin-left: 24px;
         margin-right: 24px;
     }
 
-    // .pricing__switch-annualy
-
-    &__switch-annualy {
-    }
-
-    // .pricing__plans
+    &__switch-annualy {}
 
     &__plans {
         display: inline-flex;
@@ -54,8 +38,6 @@
         gap: 12px;
         margin-top: 48px;
     }
-
-    // .pricing__plan
 
     &__plan {
         display: flex;
@@ -71,16 +53,12 @@
         padding: 50px 24px;
     }
 
-    // .pricing__plan-headline
-
     &__plan-headline {
         color: #0c0047;
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
     }
-
-    // .pricing__plan-explain
 
     &__plan-explain {
         margin-top: 24px;
@@ -89,18 +67,13 @@
         text-align: center;
     }
 
-    // .pricing__plan-amount
-
     &__plan-amount {
         display: flex;
         margin-top: 37px;
         align-items: flex-end;
     }
 
-    // .pricing__plan-cash
-
-    &__plan-cash {
-    }
+    &__plan-cash {}
 
     &__plan-cash p {
         color: #0c0047;
@@ -110,16 +83,12 @@
         letter-spacing: 0em;
     }
 
-    // .pricing__plan-period
-
     &__plan-period {
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.011em;
     }
-
-    // .pricing__plan-button
 
     &__plan-button {
         background-color: #00218f;
@@ -128,8 +97,6 @@
         margin-top: 42px;
         width: 100%;
     }
-
-    // .pricing__plan-link
 
     &__plan-link {
         width: 100%;
@@ -140,8 +107,6 @@
         letter-spacing: 0.011em;
         color: #ffffff;
     }
-
-    // .pricing__plan-offer
 
     &__plan-offer {
         margin-top: 24px;
@@ -154,8 +119,6 @@
         margin: 0;
         list-style: none;
     }
-
-    
 
     &__plan-offer ul li {
         font-size: 14px;

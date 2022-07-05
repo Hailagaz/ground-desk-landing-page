@@ -16,13 +16,6 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    width: 1240px;
-    max-width: 100%;
-    margin: 0px auto 0px auto;
-    padding: 0 20px 0 20px;
-}
-
 html,
 body {
     scroll-behavior: smooth;
@@ -35,8 +28,14 @@ body {
     font-style: normal;
     font-weight: 400;
     margin: auto;
-
     background: url(../images/background_image_2.png) center 0/100% 1350px no-repeat;
+}
+
+main {
+    width: 1240px;
+    max-width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 0 20px 0 20px;
 }
 
 h1,
@@ -107,14 +106,3 @@ a:hover {
     text-decoration: none;
     color: inherit;
 }
-
-@media screen and (max-width: 899px) {
-}
-
-// Background image as solo element
-// .image1 {
-//     position: absolute;
-//     z-index: -1;
-//     top: 0;
-//     left: 0;
-// }

@@ -5,14 +5,10 @@
     align-items: center;
     flex-direction: column;
 
-    // .solution__headline
-
     &__headline {
         font-size: 36px;
         line-height: 46px;
     }
-
-    // .solution__explain
 
     &__explain {
         margin-top: 25px;
@@ -20,8 +16,6 @@
         letter-spacing: -0.40799999237060547px;
         text-align: left;
     }
-
-    // .solution__benefits
 
     &__benefits {
         display: inline-flex;
@@ -32,8 +26,6 @@
         margin-top: 61px;
     }
 
-    // .solution__benefit
-
     &__benefit {
         max-width: 100%;
         width: 276px;
@@ -43,13 +35,7 @@
         box-sizing: border-box;
     }
 
-    // .solution__benefit-image
-
-    &__benefit-image {
-        //margin-top: 32px;
-    }
-
-    // .solution__benefit-head
+    &__benefit-image {}
 
     &__benefit-head {
         margin-top: 24px;
@@ -58,16 +44,12 @@
         color: #343434;
     }
 
-    // .solution__benefit-text
-
     &__benefit-text {
         margin-top: 16px;
         line-height: 24px;
         letter-spacing: -0.40799999237060547px;
         text-align: left;
     }
-
-    // .solution__benefit-link
 
     &__benefit-link {
         margin-top: 27px;
@@ -76,7 +58,6 @@
         line-height: 20px;
         letter-spacing: -0.40799999237060547px;
         text-align: left;
-
         text-decoration-line: underline;
         color: #6a4bff;
     }

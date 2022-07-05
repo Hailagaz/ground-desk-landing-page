@@ -5,15 +5,11 @@
     align-items: center;
     flex-direction: column;
 
-    // .product__headline
-
     &__headline {
         text-align: center;
         max-width: 100%;
         width: 916px;
     }
-
-    // .product__explain
 
     &__explain {
         text-align: center;
@@ -22,8 +18,6 @@
         max-width: 100%;
         width: 579px;
     }
-
-    // .product__buttons
 
     &__buttons {
         display: flex;
@@ -37,28 +31,14 @@
         margin: 0 12.5px 0 12.5px;
     }
 
-    // .product__button-free
-
-    &__button-free {
-    }
-
-    // .product__link-free
-
-    &__link-free {
-    }
-
-    // .product__button-demo
+    &__button-free {}
+    &__link-free {}
 
     &__button-demo {
         color: #ffffff;
     }
 
-    // .product__link-demo
-
-    &__link-demo {
-    }
-
-    // .product__dashboards
+    &__link-demo {}
 
     &__dashboards {
         margin-top: 70px;
@@ -71,17 +51,9 @@
         box-shadow: 20px 20px 50px -12px rgba(0, 0, 0, 0.2);
         border-radius: 20px 0px 0px 20px;
     }
-    // .product__dashboard-white
 
-    &__dashboard-white {
-    }
-
-    // .product__dashboard-black
-
-    &__dashboard-black {
-    }
-
-    // .product__services
+    &__dashboard-white {}
+    &__dashboard-black {}
 
     &__services {
         display: inline-flex;
@@ -105,33 +77,10 @@
         width: 240px;
     }
 
-    // .product__servicenow
-
-    &__servicenow {
-    }
-
-    // .product__service
-
-    &__service {
-    }
-
-    // .product__paychex
-
-    &__paychex {
-    }
-
-    // .product__github
-
-    &__github {
-    }
-
-    // .product__stripe
-
-    &__stripe {
-    }
-
-    // .product__zendesk
-
-    &__zendesk {
-    }
+    &__servicenow {}
+    &__service {}
+    &__paychex {}
+    &__github {}
+    &__stripe {}
+    &__zendesk {}
 }
