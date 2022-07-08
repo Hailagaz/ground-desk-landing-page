@@ -180,6 +180,9 @@ input:checked + .slider:before {
     width: 100%;
     justify-content: center;
     align-items: center;
+    transform: scale(0) translate(450vw, -150vh);
+    transform-origin: right top;
+    transition: transform 0.5s;
   }
   .header__list > li {
     display: flex;
@@ -194,6 +197,10 @@ input:checked + .slider:before {
   .header__list > li:not(:last-child) {
     border-bottom: 1px solid #444444;
   }
+}
+
+.active {
+  transform: initial;
 }
 
 #menu-toggle {
