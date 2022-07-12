@@ -1,6 +1,3 @@
-//сделать при нажатии на меню -Ю пропадает список
-//menu-toggle.hidden = true;
-
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -16,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	//     document.querySelector(window.location.hash).scrollIntoView();
 	// }
 
-
 	// ----------------------------------------
 	// Section: Smooth scroll to chosen section
 	const menuLinks = document.querySelectorAll('.header__link[data-goto]');
@@ -24,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		menuLinks.forEach(menuLink => {
 			menuLink.addEventListener("click", onMenuLinkClick);
 		});
-
 
 		function onMenuLinkClick(e) {
 			const menuLink = e.target;
@@ -39,9 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
 				e.preventDefault();
 			}
 
-			//Need to add process of closing menu list on link click
-			//menuLink.classList.remove('active');
-			//
+			menu.classList.toggle('active');
+			menuBtn.classList.toggle('active');
 		}
 	}
 	// ----------------------------------------
