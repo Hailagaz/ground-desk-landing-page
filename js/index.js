@@ -40,4 +40,20 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 	// ----------------------------------------
 
+	// ----Prising switch----
+	let plan = document.querySelector('#testCheck');
+	let planValue = document.querySelector('#testValue');
+
+	plan.addEventListener('click', onSwitchClick);
+
+	function onSwitchClick(e) {
+		if (plan.checked == true) {
+			planValue.replaceWith('$10')
+			//planValue.insertAdjacentHTML("afterbegin", '<p>$10</p>');
+		} else {
+			planValue.replaceWith('$5');
+		}
+	}
+	// --------------------
+
 })
