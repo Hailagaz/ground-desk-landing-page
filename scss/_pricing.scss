@@ -21,14 +21,16 @@
         align-items: center;
     }
 
-    &__switch-monthly {}
+    &__switch-monthly {
+    }
 
     &__switch-slider {
         margin-left: 24px;
         margin-right: 24px;
     }
 
-    &__switch-annualy {}
+    &__switch-annualy {
+    }
 
     &__plans {
         display: inline-flex;
@@ -73,9 +75,7 @@
         align-items: flex-end;
     }
 
-    &__plan-cash {}
-
-    &__plan-cash p {
+    &__plan-cash {
         color: #0c0047;
         font-size: 56px;
         font-weight: 700;
@@ -132,7 +132,7 @@
         padding-left: 31px;
     }
 
-    #plan_standart li:nth-child(n+6) {
+    #plan_standart li:nth-child(n + 6) {
         background-image: url(../images/offer_excluded.png);
     }
 }

@@ -1,4 +1,6 @@
 
+
+
 document.addEventListener("DOMContentLoaded", () => {
 
 	let menuBtn = document.querySelector('#menu-toggle');
@@ -32,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 					behavior: "smooth"
 				});
 				e.preventDefault();
+				
 			}
 
 			menu.classList.toggle('active');
@@ -41,31 +44,19 @@ document.addEventListener("DOMContentLoaded", () => {
 	// ----------------------------------------
 
 	// ----Prising switch----
-	let plan = document.querySelector('#planCheck');
-	let planValue1 = document.querySelector('#planValue1');
-	let planValue2 = document.querySelector('#planValue2');
-	let planValue3 = document.querySelector('#planValue3');
-	let term = document.querySelectorAll('.pricing__plan-period');
+	let plan = document.getElementById('planCheck');
+	let periods = document.querySelectorAll('.pricing__plan-period');
+	let prices = document.querySelectorAll('.pricing__plan-cash');
 
 	plan.addEventListener('click', onSwitchClick);
 
 	function onSwitchClick(e) {
-		if (plan.checked == true) {
-			planValue1.innerHTML = '<p>$54</p>';
-			planValue2.innerHTML = '<p>$130</p>';
-			planValue3.innerHTML = '<p>$173</p>';
-			for (let i = 0; i < term.length; i++) {
-				term[i].innerHTML = '<p>/year</p>';
-			}
-		} else {
-			planValue1.innerHTML = '<p>$5</p>';
-			planValue2.innerHTML = '<p>$12</p>';
-			planValue3.innerHTML = '<p>$16</p>';
-			for (let i = 0; i < term.length; i++) {
-				term[i].innerHTML = '<p>/month</p>';
-			}
+		for (let price of prices) {
+			price.innerText = `$${plan.checked ? price.dataset.year : price.dataset.month}`;
+		}
+		for (let period of periods) {
+			period.innerText = plan.checked ? '/year' : '/month';
 		}
 	}
-	// --------------------
-
+	onSwitchClick();
 })

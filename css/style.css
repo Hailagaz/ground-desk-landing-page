@@ -465,7 +465,7 @@ input:checked + .slider:before {
   margin-top: 37px;
   align-items: flex-end;
 }
-.pricing__plan-cash p {
+.pricing__plan-cash {
   color: #0c0047;
   font-size: 56px;
   font-weight: 700;
