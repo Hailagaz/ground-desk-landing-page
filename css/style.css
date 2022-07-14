@@ -200,7 +200,7 @@ input:checked + .slider:before {
     opacity: 20;
   }
   .header__list > li:first-child {
-    display: block;
+    display: flex;
     height: 100px;
     border-bottom: none;
     z-index: -1;
