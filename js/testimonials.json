@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Brian Patton",
+		"position": "Manager",
+		"testimonial": "Sed mattis est eget penatibus mauris, sed condimentum vitae viverra. Ipsum ut aliquet et morbi ac in. Lacinia mattis eget nisl pellentesque non, porttitor. Vitae et vestibulum ac id. Dui aliquet porttitor libero consequat volutpat eget sed turpis. Feugiat maecenas commodo et morbi morbi gravida.",
+		"image": "images/customer_photo_1.png",
+		"stars": "images/customer_star.png"
+	},
+	{
+		"name": "Imelda Cowen",
+		"position": "Consultant",
+		"testimonial": "Sapien praesent tristique iaculis amet sit odio pellentesque. Sit nulla pretium amet, fames aenean. Nascetur augue vulputate sed pretium pretium. Scelerisque amet facilisis ut pulvinar morbi a egestas. Vel vulputate dolor nisl in non. Amet enim ultricies imperdiet ac.",
+		"image": "images/customer_photo_2.png",
+		"stars": "images/customer_star.png"
+	},
+	{
+		"name": "Alfred Walton",
+		"position": "Manager",
+		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor.",
+		"image": "images/customer_photo_3.png",
+		"stars": "images/customer_star.png"
+	},
+	{
+		"name": "John Wattson",
+		"position": "Technical director",
+		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at.",
+		"image": "images/customer_photo_1.png",
+		"stars": "images/customer_star.png"
+	},
+	{
+		"name": "Marcus Sattoni",
+		"position": "IT Analytics",
+		"testimonial": "Sapien praesent tristique iaculis amet sit odio pellentesque. Sit nulla pretium amet, fames aenean. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Platea a, pulvinar lacinia id. Augue tortor.",
+		"image": "images/customer_photo_2.png",
+		"stars": "images/customer_star.png"
+	},
+	{
+		"name": "Pedro Alvarez",
+		"position": "Software engineer",
+		"testimonial": "Sit nulla pretium amet, fames aenean. Nascetur augue vulputate sed pretium pretium. Scelerisque amet facilisis ut pulvinar morbi a egestas. Vel vulputate dolor nisl in non. Vitae et vestibulum ac id. Dui aliquet porttitor libero consequat volutpat eget sed turpis.",
+		"image": "images/customer_photo_3.png",
+		"stars": "images/customer_star.png"
+	}
+]
