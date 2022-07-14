@@ -154,6 +154,9 @@ input:checked + .slider:before {
   margin: 0 0.3rem;
   overflow: hidden;
 }
+.header__list > li:first-child {
+  display: none;
+}
 .header__link {
   font-size: 16px;
   line-height: 21px;
@@ -174,7 +177,6 @@ input:checked + .slider:before {
   .header__list {
     position: absolute;
     top: 0;
-    margin-top: 100px;
     left: 0;
     flex-direction: column;
     width: 100%;
@@ -191,8 +193,17 @@ input:checked + .slider:before {
     padding: 0.5em 0;
     width: 100%;
     color: #ffffff;
-    background-color: #222222;
+    background: radial-gradient(circle at 50% 50%, aqua, darkblue);
     opacity: 0.8;
+  }
+  .header__list > li:hover {
+    opacity: 20;
+  }
+  .header__list > li:first-child {
+    display: block;
+    height: 100px;
+    border-bottom: none;
+    z-index: -1;
   }
   .header__list > li:not(:last-child) {
     border-bottom: 1px solid #444444;
