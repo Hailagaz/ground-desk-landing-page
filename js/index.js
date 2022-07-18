@@ -70,25 +70,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			for (let testimonial of data) {
 				slides += `
-					<div class="customer__testimonial">
-						<div class="customer__testimonial-user">
-							<div class="customer__testimonial-photo">
-								<img src="${testimonial.image}" alt="Customer photo">
-							</div>
-							<div class="customer__testimonial-info">
-								<div class="customer__testimonial-name">
-									<h4>${testimonial.name}</h4>
+					<div class="customer__testimonials">
+						<div class="customer__testimonial">
+							<div class="customer__testimonial-user">
+								<div class="customer__testimonial-photo">
+									<img src="${testimonial.image}" alt="Customer photo">
 								</div>
-								<div class="customer__testimonial-position">
-									<p>${testimonial.position}</p>
+								<div class="customer__testimonial-info">
+									<div class="customer__testimonial-name">
+										<h4>${testimonial.name}</h4>
+									</div>
+									<div class="customer__testimonial-position">
+										<p>${testimonial.position}</p>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="customer__testimonial-text">
-							<p>${testimonial.testimonial}</p>
-						</div>
-						<div class="customer__testimonial-stars">
-							<img src="${testimonial.stars}>
+							<div class="customer__testimonial-text">
+								<p>${testimonial.testimonial}</p>
+							</div>
+							<div class="customer__testimonial-stars">
+								<img src="${testimonial.stars}>
+							</div>
 						</div>
 					</div>
 			`;
@@ -122,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 		})
 		.catch((err) => {
-			document.querySelector('.swiper').innerHTML = '<p>Sorry, oops!</p>';
+			document.querySelector('.swiper').innerHTML = '<p>Sorry, we have a problem. It will be fixed soon.</p>';
 		});
 	// ----------------------------------------
 })
