@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			for (let testimonial of data) {
 				slides += `
-					<div class="customer__testimonials">
 						<div class="customer__testimonial">
 							<div class="customer__testimonial-user">
 								<div class="customer__testimonial-photo">
@@ -92,11 +91,10 @@ document.addEventListener("DOMContentLoaded", () => {
 								<img src="${testimonial.stars}>
 							</div>
 						</div>
-					</div>
 			`;
 			}
 			document.querySelector('.swiper').innerHTML = `
-                    <div class="swiper-wrapper">
+                    <div class="customer__testimonials">
                         ${slides}
                     </div>
                     <div class="swiper-pagination"></div>
@@ -109,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				// Optional parameters
 				//direction: 'vertical',
 				loop: true,
-				slidesPerView: 3,
+				slidesPerView: 2,
 				spaceBetween: 30,
 				// If we need pagination
 				pagination: {

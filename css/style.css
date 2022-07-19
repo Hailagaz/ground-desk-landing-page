@@ -376,44 +376,6 @@ input:checked + .slider:before {
   font-size: 40px;
   line-height: 81px;
 }
-.customer__testimonials {
-  margin-top: 60px;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-}
-.customer__testimonial {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  width: 384px;
-  border: 1px solid #eaeaea;
-  border-radius: 20px;
-  padding: 32px;
-  box-sizing: border-box;
-}
-.customer__testimonial-user {
-  display: flex;
-  align-items: center;
-}
-.customer__testimonial-photo {
-  margin-right: 20px;
-}
-.customer__testimonial-position {
-  margin-top: 6px;
-}
-.customer__testimonial-text {
-  margin-top: 24px;
-  line-height: 22px;
-  letter-spacing: -0.0025em;
-}
-.customer__testimonial-stars {
-  margin-top: 24px;
-  display: flex;
-}
-
 .pricing {
   margin-top: 125px;
   margin-bottom: 46px;
