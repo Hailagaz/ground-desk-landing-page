@@ -1,9 +1,10 @@
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
+	if (window.location.hash) {
+		document.querySelector(window.location.hash).scrollIntoView();
+	}
 
-	// ----------------------------------------
+
+
 	// Section: Burger menu
 	let menuBtn = document.querySelector('#menu-toggle');
 	let menu = document.querySelector('.header__list');
@@ -12,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		menu.classList.toggle('active');
 		menuBtn.classList.toggle('active');
 	});
-	// ----------------------------------------
 
-	// ----------------------------------------
+
+
 	// Section: Smooth scroll to chosen section
 	const menuLinks = document.querySelectorAll('.header__link[data-goto]');
 	if (menuLinks.length > 0) {
@@ -40,9 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			menuBtn.classList.toggle('active');
 		}
 	}
-	// ----------------------------------------
 
-	// ----------------------------------------
+
+
 	// Section: Pricing switch action
 	let plan = document.getElementById('planCheck');
 	let periods = document.querySelectorAll('.pricing__plan-period');
@@ -59,9 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	}
 	onSwitchClick();
-	// ----------------------------------------
 
-	// ----------------------------------------
+
+
 	// Section: Testimonials
 	fetch("js/testimonials.json")
 		.then((response) => response.json())
@@ -70,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			for (let testimonial of data) {
 				slides += `
-						<div class="customer__testimonial">
+						<div class="swiper-slide customer__testimonial">
 							<div class="customer__testimonial-user">
 								<div class="customer__testimonial-photo">
 									<img src="${testimonial.image}" alt="Customer photo">
@@ -94,27 +95,69 @@ document.addEventListener("DOMContentLoaded", () => {
 			`;
 			}
 			document.querySelector('.swiper').innerHTML = `
-                    <div class="customer__testimonials">
+                    <div class="swiper-wrapper customer__testimonials">
                         ${slides}
                     </div>
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 `;
-				
+
 			// SWIPER
 			const swiper = new Swiper('.swiper', {
-				// Optional parameters
-				//direction: 'vertical',
 				loop: true,
-				slidesPerView: 2,
-				spaceBetween: 30,
-				// If we need pagination
+
+				slidesPerView: 1.5,
+				watchOverflow: true,
+				spaceBetween: 125,
+				slidesPerGroup: 1,
+				centeredSlides: true,
+
+				effect: 'coverflow',
+				coverflowEffect: {
+					rotate: 0,
+					slideShadows: false,
+					scale: 0.8,
+				},
+				slideToClickedSlide: true,
+
+				keyboard: {
+					enabled: true,
+					onlyInViewport: true,
+					pageUpDown: true,
+				},
+
+				mousewheel: {
+					sensitivity: 1,
+				},
+
+				breakpoints: {
+					320: {
+						slidesPerView: 1,
+						spaceBetween: 25,
+					},
+					768: {
+						slidesPerView: 1.5,
+						spaceBetween: 125,
+					},
+					1920: {
+						slidesPerView: 1.7
+					},
+					2300: {
+						slidesPerView: 2
+					},
+					2700: {
+						slidesPerView: 2.5
+					},
+					3400: {
+						slidesPerView: 3
+					}
+				},
+
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
 				},
-				// Navigation arrows
 				navigation: {
 					nextEl: '.swiper-button-next',
 					prevEl: '.swiper-button-prev',
@@ -124,5 +167,4 @@ document.addEventListener("DOMContentLoaded", () => {
 		.catch((err) => {
 			document.querySelector('.swiper').innerHTML = '<p>Sorry, we have a problem. It will be fixed soon.</p>';
 		});
-	// ----------------------------------------
 })
