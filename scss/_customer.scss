@@ -16,49 +16,33 @@
 		height: 700px;
     }
     &__wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &__testimonial {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        width: 384px;
-        border: 1px solid #eaeaea;
-        border-radius: 20px;
-        padding: 32px;
-        box-sizing: border-box;
-    }
-
-    &__testimonial-user {
         // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
         // align-items: center;
     }
-
-    &__testimonial-photo {
-        // margin-right: 20px;
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        width: 384px;
+        border: 1px solid #ffffff;
+        border-radius: 14px;
+        box-sizing: border-box;
+        box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.05);
+        padding: 50px 24px;
     }
+    &__user {}
+    &__photo {}
+    &__info {}
+    &__name {}
+    &__position {}
+    &__test {}
+    &__stars {}
 
-    &__testimonial-info {}
-    &__testimonial-name {}
 
-    &__testimonial-position {
-        // margin-top: 6px;
-    }
-
-    &__testimonial-text {
-        // margin-top: 24px;
-        // line-height: 22px;
-        // letter-spacing: -0.0025em;
-    }
-
-    &__testimonial-stars {
-        // margin-top: 24px;
-        // display: flex;
-    }
+    
 }
 
 // Custom swiper stylization

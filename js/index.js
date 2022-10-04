@@ -71,28 +71,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			for (let testimonial of data) {
 				slides += `
-						<div class="swiper-slide customer__testimonial">
-							<div class="customer__testimonial-user">
-								<div class="customer__testimonial-photo">
+						<div class="swiper-slide customer__slide">
+							<div class="customer__user">
+								<div class="customer__photo">
 									<img src="${testimonial.image}" alt="Customer photo">
 								</div>
-								<div class="customer__testimonial-info">
-									<div class="customer__testimonial-name">
+								<div class="customer__info">
+									<div class="customer__name">
 										<h4>${testimonial.name}</h4>
 									</div>
-									<div class="customer__testimonial-position">
+									<div class="customer__position">
 										<p>${testimonial.position}</p>
 									</div>
 								</div>
 							</div>
-							<div class="customer__testimonial-text">
+							<div class="customer__text">
 								<p>${testimonial.testimonial}</p>
 							</div>
-							<div class="customer__testimonial-stars">
+							<div class="customer__stars">
 								<img src="${testimonial.stars}>
 							</div>
 						</div>
-			`;
+				`;
 			}
 			document.querySelector('.swiper').innerHTML = `
                     <div class="swiper-wrapper customer__wrapper">
