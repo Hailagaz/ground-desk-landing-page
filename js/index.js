@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			`;
 			}
 			document.querySelector('.swiper').innerHTML = `
-                    <div class="swiper-wrapper customer__testimonials">
+                    <div class="swiper-wrapper customer__wrapper">
                         ${slides}
                     </div>
                     <div class="swiper-pagination"></div>
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			const swiper = new Swiper('.swiper', {
 				loop: true,
 
-				slidesPerView: 1.5,
+				slidesPerView: 1,
 				watchOverflow: true,
 				spaceBetween: 125,
 				slidesPerGroup: 1,
@@ -129,29 +129,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 				mousewheel: {
 					sensitivity: 1,
-				},
-
-				breakpoints: {
-					320: {
-						slidesPerView: 1,
-						spaceBetween: 25,
-					},
-					768: {
-						slidesPerView: 1.5,
-						spaceBetween: 125,
-					},
-					1920: {
-						slidesPerView: 1.7
-					},
-					2300: {
-						slidesPerView: 2
-					},
-					2700: {
-						slidesPerView: 2.5
-					},
-					3400: {
-						slidesPerView: 3
-					}
 				},
 
 				pagination: {

@@ -14,10 +14,7 @@
     <link type="Image/x-icon" href="./images/ground_desk2.ico" rel="icon">
     <title>GroundDesk</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-    <script defer src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -284,7 +281,7 @@
                         <h6>The national average cost of buying coin easy.</h6>
                     </div>
                     <div class="pricing__plan-amount">
-                        <div class="pricing__plan-cash"  data-month="12" data-year="130"></div>
+                        <div class="pricing__plan-cash" data-month="12" data-year="130"></div>
                         <div class="pricing__plan-period"></div>
                     </div>
                     <div class="pricing__plan-button button-general">
@@ -339,10 +336,12 @@
                 <h2>GroundDesk is loved by users</h2>
             </div>
             <!-- Slider main container -->
-            <div class="swiper">
+            <div class="swiper customer__slider">
                 <div class="swiper-spinner">
-                    <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                        <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                    <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30">
+                        </circle>
                     </svg>
                 </div>
             </div>
@@ -419,6 +418,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
