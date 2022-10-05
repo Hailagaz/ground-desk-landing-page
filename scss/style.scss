@@ -4,13 +4,13 @@
 @import "_swiper";
 
 
-@import "header";
-@import "product";
-@import "solution";
-@import "customer";
-@import "pricing";
-@import "about";
-@import "footer";
+@import "_header";
+@import "_product";
+@import "_solution";
+@import "_customer";
+@import "_pricing";
+@import "_about";
+@import "_footer";
 
 * {
     margin: 0;

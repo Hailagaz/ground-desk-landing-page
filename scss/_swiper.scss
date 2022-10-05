@@ -13,6 +13,9 @@
 
 .swiper-button-prev, 
 .swiper-button-next {
+	position: static;
+	margin-left: 40px;
+
 	background-color: #dab4b4;
 	width: 66px;
 	height: 66px;
@@ -31,4 +34,5 @@
 .swiper-button-prev::after,
 .swiper-button-next::after {
 	display: none;
+	
 }
