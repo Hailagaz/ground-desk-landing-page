@@ -105,20 +105,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			// SWIPER
 			const swiper = new Swiper('.swiper', {
-				loop: true,
+				loop: false,
 
 				slidesPerView: 3,
 				watchOverflow: true,
-				spaceBetween: 50,
+				spaceBetween: 24,
 				slidesPerGroup: 1,
 				centeredSlides: false,
 
-				// effect: 'coverflow',
-				// coverflowEffect: {
-				// 	rotate: 0,
-				// 	slideShadows: false,
-				// 	scale: 1,
-				// },
 				slideToClickedSlide: true,
 
 				keyboard: {
