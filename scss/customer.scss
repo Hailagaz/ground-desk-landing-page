@@ -9,11 +9,13 @@
         font-size: 40px;
         line-height: 81px;
         margin-bottom: 60px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
     }
-    &__slider {
-        max-width: 100%;
-		height: 376px;
-    }
+    &__slider {}
     &__wrapper {}
     &__slide {
 		display: flex;

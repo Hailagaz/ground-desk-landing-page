@@ -98,9 +98,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="swiper-wrapper customer__wrapper">
                         ${slides}
                     </div>
-                    <!-- <div class="swiper-pagination"></div> -->
-                    <div class="swiper-button-prev customer__button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <!-- <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
                 `;
 
 			// SWIPER

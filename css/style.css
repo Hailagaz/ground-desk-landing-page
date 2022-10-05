@@ -103,6 +103,30 @@ input:checked + .slider:before {
   line-height: 21px;
 }
 
+.swiper {
+  max-width: 100%;
+  height: 376px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #dab4b4;
+  width: 66px;
+  height: 66px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+}
+
+.swiper-button-prev {
+  background-image: url(/images/arrow-left-circle.png);
+}
+
+.swiper-button-next {
+  background-image: url(/images/arrow-right-circle.png);
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none;
@@ -381,10 +405,6 @@ input:checked + .slider:before {
   font-size: 40px;
   line-height: 81px;
   margin-bottom: 60px;
-}
-.customer__slider {
-  max-width: 100%;
-  height: 376px;
 }
 .customer__slide {
   display: flex;
