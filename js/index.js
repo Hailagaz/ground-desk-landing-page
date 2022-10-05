@@ -88,9 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
 							<div class="customer__text">
 								<p>${testimonial.testimonial}</p>
 							</div>
-							<div class="customer__stars">
+							<!-- <div class="customer__stars">
 								<img src="${testimonial.stars}>
-							</div>
+							</div> -->
 						</div>
 				`;
 			}
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="swiper-wrapper customer__wrapper">
                         ${slides}
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper-pagination"></div> -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 `;
@@ -107,17 +107,17 @@ document.addEventListener("DOMContentLoaded", () => {
 			const swiper = new Swiper('.swiper', {
 				loop: true,
 
-				slidesPerView: 1,
+				slidesPerView: 3,
 				watchOverflow: true,
-				spaceBetween: 125,
+				spaceBetween: 150,
 				slidesPerGroup: 1,
-				centeredSlides: true,
+				//centeredSlides: true,
 
 				effect: 'coverflow',
 				coverflowEffect: {
 					rotate: 0,
 					slideShadows: false,
-					scale: 0.8,
+					scale: 1,
 				},
 				slideToClickedSlide: true,
 
