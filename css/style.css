@@ -382,15 +382,9 @@ input:checked + .slider:before {
   height: 400px;
 }
 .customer__slide {
-  text-align: center;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
-  max-width: 384px;
-  height: 100%;
-  max-height: 376px;
   border: 1px solid #eaeaea;
   border-radius: 14px;
   box-sizing: border-box;
@@ -414,6 +408,18 @@ input:checked + .slider:before {
   color: #969696;
   letter-spacing: -0.0025em;
 }
+.customer__button-prev {
+  background-image: url(/images/arrow-left-circle.png);
+  width: 64px;
+  height: 64px;
+}
+
+.swiper-button-prev::after {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
 .pricing {
   margin-top: 125px;
   margin-bottom: 46px;

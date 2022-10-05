@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         ${slides}
                     </div>
                     <!-- <div class="swiper-pagination"></div> -->
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-prev customer__button-prev"></div>
                     <div class="swiper-button-next"></div>
                 `;
 
@@ -109,16 +109,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 				slidesPerView: 3,
 				watchOverflow: true,
-				spaceBetween: 150,
+				spaceBetween: 50,
 				slidesPerGroup: 1,
-				//centeredSlides: true,
+				centeredSlides: false,
 
-				effect: 'coverflow',
-				coverflowEffect: {
-					rotate: 0,
-					slideShadows: false,
-					scale: 1,
-				},
+				// effect: 'coverflow',
+				// coverflowEffect: {
+				// 	rotate: 0,
+				// 	slideShadows: false,
+				// 	scale: 1,
+				// },
 				slideToClickedSlide: true,
 
 				keyboard: {
