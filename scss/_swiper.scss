@@ -15,10 +15,10 @@
 .swiper-button-next {
 	position: static;
 	margin-left: 40px;
-
-	background-color: #dab4b4;
 	width: 66px;
 	height: 66px;
+	background-color: #dab4b4;
+	
 	border-radius: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -34,5 +34,5 @@
 .swiper-button-prev::after,
 .swiper-button-next::after {
 	display: none;
-	
+
 }
