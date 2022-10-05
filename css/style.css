@@ -103,6 +103,11 @@ input:checked + .slider:before {
   line-height: 21px;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

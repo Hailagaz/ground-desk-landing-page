@@ -1,6 +1,15 @@
-// Custom swiper stylization
+.swiper {
 
-//.swiper-pagination {}
+}
+
+.swiper-wrapper {
+
+}
+
+.swiper-pagination {
+
+}
+
 .swiper-button-prev {
     //background-image: url(/images/arrow-left-circle.png);
 }
@@ -8,7 +17,7 @@
 
 }
 
-.swiper-button-prev, 
-.swiper-button-next {
+.swiper-button-prev::after, 
+.swiper-button-next::after {
     display: none;
 }
