@@ -110,11 +110,11 @@ input:checked + .slider:before {
 
 .swiper-button-prev,
 .swiper-button-next {
-  position: static;
+  position: static !important;
   margin-left: 40px;
-  width: 66px;
-  height: 66px;
-  background-color: #dab4b4;
+  width: 66px !important;
+  height: 66px !important;
+  background-color: #ffffff;
   border-radius: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -410,7 +410,7 @@ input:checked + .slider:before {
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 .customer__buttons {
