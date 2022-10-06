@@ -64,4 +64,11 @@
     }
     &__stars {
     }
+
+    @media screen and (max-width: 884px) {
+        
+        &__buttons {
+            margin-left: auto;
+        }
+    }
 }

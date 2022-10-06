@@ -449,6 +449,12 @@ input:checked + .slider:before {
   color: #969696;
   letter-spacing: -0.0025em;
 }
+@media screen and (max-width: 884px) {
+  .customer__buttons {
+    margin-left: auto;
+  }
+}
+
 .pricing {
   margin-top: 125px;
   margin-bottom: 46px;
