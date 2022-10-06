@@ -10,15 +10,19 @@
         line-height: 81px;
         margin-bottom: 60px;
         width: 100%;
-
+        gap: 24px;
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__buttons {
         display: flex;
         flex-direction: row;
+    }
+    &__buttons:first-child {
+        margin-left: 0px;
     }
 
     &__slider {

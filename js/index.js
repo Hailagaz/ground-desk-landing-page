@@ -124,6 +124,17 @@ document.addEventListener("DOMContentLoaded", () => {
 				mousewheel: {
 					sensitivity: 1,
 				},
+				breakpoints: {
+					320: {
+						slidesPerView: 1,
+					},
+					630: {
+						slidesPerView: 2,
+					},
+					900: {
+						slidesPerView: 3,
+					},
+				},
 
 				pagination: {
 					el: '.swiper-pagination',

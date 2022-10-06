@@ -408,14 +408,19 @@ input:checked + .slider:before {
   line-height: 81px;
   margin-bottom: 60px;
   width: 100%;
+  gap: 24px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .customer__buttons {
   display: flex;
   flex-direction: row;
+}
+.customer__buttons:first-child {
+  margin-left: 0px;
 }
 .customer__slide {
   display: flex;
